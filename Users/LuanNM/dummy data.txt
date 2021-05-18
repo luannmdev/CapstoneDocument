@@ -1,0 +1,134 @@
+# tblCity
+INSERT INTO `tblCity` (`CityId`, `CityName`) VALUES (1, 'Ho Chi Minh');
+INSERT INTO `tblCity` (`CityId`, `CityName`) VALUES (2, 'Ha Noi');
+
+# tblDistrict
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (1, 1, 'District 1');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (2, 1, 'District 2');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (3, 1, 'District 3');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (4, 1, 'District 4');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (5, 1, 'District 5');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (6, 1, 'District 6');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (7, 1, 'District 7');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (8, 1, 'Thu Duc');
+INSERT INTO `tblDistrict` (`DistrictId`, `CityId`, `DistrictName`) VALUES (9, 2, 'Ba Dinh District');
+
+# tblRole
+INSERT INTO `tblRole` (`RoleId`, `RoleName`) VALUES (1, 'Admin');
+INSERT INTO `tblRole` (`RoleId`, `RoleName`) VALUES (2, 'Manager');
+
+# tblCategory
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (1, 'Mobile', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (2, 'Samsung', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (3, 'Iphone', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (4, 'Nokia', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (5, 'Tablet', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (6, '5G', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (7, '4G', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (8, 'Luxury', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (9, 'Vip', 1);
+INSERT INTO `tblCategory` (`CategoryId`, `CategoryName`, `StatusId`) VALUES (10, 'Sony', 1);
+
+# tblProduct
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_001', 'Samsung Galaxy S20', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_002', 'Iphone X', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_003', 'Sony Xperia X', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_004', 'Xaomi 5', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_005', 'Oppo 5G', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_006', 'Samsung Tab S7', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_007', 'Ipad Pro 2', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_008', 'Samsung Note 10', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_009', 'Blackberry', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblProduct` (`ProductId`, `ProductName`, `ImageURL`, `Description`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`,`StatusId`) VALUES ('PRO_010', 'Samsung Galaxy S21', 'test', 'As live live has our ever personal tragic demise specifically point shocking lot case. Because as prowess due to instill formula has life ergo.', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+
+# tblProductCategoryMapping
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (1, 'PRO_001', 1);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (2, 'PRO_001', 2);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (3, 'PRO_001', 6);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (4, 'PRO_002', 1);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (5, 'PRO_002', 3);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (6, 'PRO_003', 10);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (7, 'PRO_003', 1);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (8, 'PRO_004', 1);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (9, 'PRO_005', 1);
+INSERT INTO `tblProductCategoryMapping` (`ProductCategoryMappingId`, `ProductId`, `CategoryId`) VALUES (10, 'PRO_006', 5);
+
+# tblCamera
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_001', 'HIKVision-IP-Cam-1', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_002', 'HIKVision-IP-Cam-2', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_003', 'HIKVision-IP-Cam-3', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_004', 'HIKVision-IP-Cam-4', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_005', 'HIKVision-IP-Cam-5', 'test', '192.168.1.1', 'rtspString', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_006', 'HIKVision-IP-Cam-6', 'test', '192.168.1.1', 'rtspString', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_007', 'HIKVision-IP-Cam-7', 'test', '192.168.1.1', 'rtspString', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_008', 'HIKVision-IP-Cam-8', 'test', '192.168.1.1', 'rtspString', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_009', 'HIKVision-IP-Cam-9', 'test', '192.168.1.1', 'rtspString', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_010', 'HIKVision-IP-Cam-10', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_011', 'HIKVision-IP-Cam-11', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_012', 'HIKVision-IP-Cam-12', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_013', 'HIKVision-IP-Cam-13', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+INSERT INTO `tblCamera` (`CameraId`, `CameraName`, `ImageURL`, `IPAddress`, `RTSPString`, `TypeDetect`, `CreatedTime`,`UpdatedTime`,`ReasonInactive`,`StatusId`) VALUES ('CAM_014', 'HIKVision-IP-Cam-14', 'test', '192.168.1.1', 'rtspString', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1);
+
+
+# tblStore
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_001', 'HIEU HD STORE', 'test', '13 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_002', 'HIEU HD STORE 2', 'test', '14 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_003', 'HIEU HD STORE 3', 'test', '15 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_004', 'HIEU HD STORE 4', 'test', '16 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_005', 'HIEU HD STORE 5', 'test', '17 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_006', 'HIEU HD STORE 6', 'test', '18 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_007', 'HIEU HD STORE 7', 'test', '19 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_008', 'HIEU HD STORE 8', 'test', '20 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_009', 'HIEU HD STORE 9', 'test', '21 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+INSERT INTO `tblStore` (`StoreId`, `StoreName`, `ImageURL`, `Address`, `AnalyzedTime`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`DistrictId`,`StatusId`) VALUES ('STO_010', 'HIEU HD STORE 10', 'test', '22 Le Van Viet', '11:19:53', '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  1, 1);
+
+# tblShelf
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_001', 'MOBILE 5G', 'test', 'This is the shelf that display new phone 5G technology.', 10, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_002', 'MOBILE 5G 2', 'test', 'This is the shelf that display new phone 5G technology.', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_003', 'MOBILE 5G 3', 'test', 'This is the shelf that display new phone 5G technology.', 3, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_004', 'MOBILE 5G 4', 'test', 'This is the shelf that display new phone 5G technology.', 4, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_005', 'MOBILE 5G 5', 'test', 'This is the shelf that display new phone 5G technology.', 5, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_006', 'MOBILE 5G 6', 'test', 'This is the shelf that display new phone 5G technology.', 6, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 1);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_007', 'MOBILE 5G 7', 'test', 'This is the shelf that display new phone 5G technology.', 7, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 2);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_008', 'MOBILE 5G 8', 'test', 'This is the shelf that display new phone 5G technology.', 8, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 2);
+INSERT INTO `tblShelf` (`ShelfId`, `ShelfName`, `ImageURL`, `Description`, `NumberStacks`, `CreatedTime`, `UpdatedTime`,`ReasonInactive`,`StoreId`,`StatusId`) VALUES ('SHE_009', 'MOBILE 5G 9', 'test', 'This is the shelf that display new phone 5G technology.', 9, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'STO_001', 3);
+
+# tblShelfCameraMapping
+INSERT INTO `tblShelfCameraMapping` (`ShelfCameraMappingId`, `AddedTime`, `RemovedTime`, `ShelfId`, `CameraId`, `StatusId`) VALUES ('SCM_00001', '2021-05-05 05:39:10', null, 'SHE_001', 'CAM_005', 1);
+INSERT INTO `tblShelfCameraMapping` (`ShelfCameraMappingId`, `AddedTime`, `RemovedTime`, `ShelfId`, `CameraId`, `StatusId`) VALUES ('SCM_00002', '2021-05-05 05:39:10', null, 'SHE_002', 'CAM_006', 1);
+INSERT INTO `tblShelfCameraMapping` (`ShelfCameraMappingId`, `AddedTime`, `RemovedTime`, `ShelfId`, `CameraId`, `StatusId`) VALUES ('SCM_00003', '2021-05-05 05:39:10', null, 'SHE_003', 'CAM_007', 1);
+INSERT INTO `tblShelfCameraMapping` (`ShelfCameraMappingId`, `AddedTime`, `RemovedTime`, `ShelfId`, `CameraId`, `StatusId`) VALUES ('SCM_00004', '2021-05-05 05:39:10', null, 'SHE_004', 'CAM_008', 1);
+INSERT INTO `tblShelfCameraMapping` (`ShelfCameraMappingId`, `AddedTime`, `RemovedTime`, `ShelfId`, `CameraId`, `StatusId`) VALUES ('SCM_00005', '2021-05-05 05:39:10', null, 'SHE_005', 'CAM_009', 1);
+
+# tblStack
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_001', 1, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_002', 2, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_003', 3, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_004', 4, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_005', 5, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_006', 6, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_007', 7, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 1);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_008', 8, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 2);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_009', 9, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 2);
+INSERT INTO `tblStack` (`StackId`, `Position`, `CreatedTime`, `UpdatedTime`, `ReasonInactive`, `ShelfId`, `StatusId`) VALUES ('STA_010', 10, '2021-05-05 05:39:10', '2021-05-05 10:39:42', null,  'SHE_001', 3);
+
+# tblStackProductCameraMapping
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_001', null, null, null, null, 'STA_001', 'PRO_001', 'CAM_001', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_002', null, null, null, null, 'STA_002', 'PRO_002', 'CAM_002', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_003', null, null, null, null, 'STA_003', 'PRO_003', 'CAM_003', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_004', null, null, null, null, 'STA_004', 'PRO_004', 'CAM_004', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_005', null, null, null, null, 'STA_005', 'PRO_005', 'CAM_010', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_006', null, null, null, null, 'STA_006', 'PRO_006', 'CAM_011', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_007', null, null, null, null, 'STA_007', 'PRO_007', 'CAM_012', 1);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_008', null, null, null, null, 'STA_008', null, 'CAM_013', 2);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_009', null, null, null, null, 'STA_009', null, 'CAM_014', 2);
+INSERT INTO `tblStackProductCameraMapping` (`StackProductCameraMappingId`, `AddedCameraTime`, `RemovedCameraTime`, `AddedProductTime`, `RemoveProductTime`, `StackId`, `ProductId`, `CameraId`, `StatusId`) VALUES ('SPC_010', null, null, null, null, 'STA_010', null, null, 3);
+
+# tblUser
+INSERT INTO `tblUser` (UserId, EmployeeCode, ImageURL, Username, Password, Fullname, Gender, BirthDate, IdentifyCard,Phone, Email, Address, CreatedTime, UpdatedTime, ReasonInactive, RoleId, DistrictId, StatusId) VALUES ('USER_001', 'luannm9', 'test', 'admin', 'admin', 'Nguyen Minh Luan', 0, '1999-05-18', '123123123', '0909123988', 'vnproben@gmail.com', '13 Le Van Viet', '2021-05-05 05:39:10', '2021-05-05 05:39:10', null, 1, 1, 1);
+INSERT INTO `tblUser` (UserId, EmployeeCode, ImageURL, Username, Password, Fullname, Gender, BirthDate, IdentifyCard,Phone, Email, Address, CreatedTime, UpdatedTime, ReasonInactive, RoleId, DistrictId, StatusId) VALUES ('USER_002', 'hieuhd1', 'test', 'email@gmail.com', '123123', 'Luon Thanh Hieu', 0, '1999-05-18', '123123123', '0909123988', 'email@gmail.com', '13 Le Van Viet', '2021-05-05 05:39:10', '2021-05-05 05:39:10', null, 2, 2, 1);
+INSERT INTO `tblUser` (UserId, EmployeeCode, ImageURL, Username, Password, Fullname, Gender, BirthDate, IdentifyCard,Phone, Email, Address, CreatedTime, UpdatedTime, ReasonInactive, RoleId, DistrictId, StatusId) VALUES ('USER_003', 'tuyetbu1', 'test', 'email2@gmail.com', '123123', 'Tuyet Bu', 1, '1999-05-18', '123123123', '0909123988', 'email2@gmail.com', '13 Le Van Viet', '2021-05-05 05:39:10', '2021-05-05 05:39:10', null, 2, 3, 1);
+
+# tblUserStoreMapping
+INSERT INTO `tblUserStoreMapping` (`UserStoreMappingId`, `AddedTime`, `RemovedTime`, `StoreId`, `UserId`, `StatusId`) VALUES ('USM_001', '2021-05-05 05:39:10', '2021-05-05 10:39:42', 'STO_001',  'USER_003', 1);
+INSERT INTO `tblUserStoreMapping` (`UserStoreMappingId`, `AddedTime`, `RemovedTime`, `StoreId`, `UserId`, `StatusId`) VALUES ('USM_002', '2021-05-05 05:39:10', '2021-05-05 10:39:42', 'STO_002',  'USER_002', 1);

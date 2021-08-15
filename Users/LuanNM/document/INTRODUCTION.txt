@@ -1,0 +1,38 @@
+
+Current context (thực trạng)
+	
+	Ngày nay, chúng ta gặp rất nhiều sản phẩm được trưng bày ở khắp mọi nơi. Tuy nhiên, với tư cách là nhà cung cấp, việc biết được sản phẩm của mình có được khách hàng quan tâm hay không, hay đâu trong của hàng là nơi trưng bày sản phẩm hợp lý là điều rất quan trọng. 
+	
+	Trong đề tài này, chúng tôi giới thiệu một giải pháp giúp nhà cung cấp biết được mức độ quan tâm của khách hàng đối với từng sản phẩm được trưng bày và đâu là “điểm nóng” trong cửa hàng phù hợp để trưng bày sản phẩm.	
+	
+Problems (vấn đề)
+
+	Có nhiều cách phân tích một sản phẩm phổ biến như phân tích bán hàng, khảo sát, dựa vào phản hồi… Tuy nhiên, tất cả đều phải dựa vào con người và rất mất thời gian. Hầu hết đều dựa trên kiến thức và kinh nghiệm chứ ít có cơ sở.
+	
+	=> Những vấn đề có thể dễ dàng thấy là
+	
+	- Tốn nhiều tiền và thời gian: Việc thu thập dữ liệu rất tốn kém và mất thời gian.
+	- Dữ liệu không đảm bảo tính đúng đắn: Dữ liệu có thể bị người thu thập dữ liệu làm giả.
+	- Cần có kiến thức và kinh nghiệm: Chỉ những người có kiến thức và kinh nghiệm mới có thể phân tích dữ liệu thu thập được.
+	- Không có cái nhìn khách quan.
+
+Solutions (giải pháp)
+
+
+	Trong hệ thống của chúng thôi, chúng tôi sẽ phân tích cảm xúc của khách hàng và xác định "điểm nóng" thông qua camera và hệ thống trí tuệ nhân tạo để giúp nhà cung cấp sửa đổi chiến lược và chiến thuật kinh doanh của họ.
+
+	Hệ thống sẽ đưa ra bảng phân tích chi tiết cho từng sản phẩm cũng như từng khung thời gian yêu cầu.
+	
+	=>
+	
+	- Ưu điểm:
+	o Phân tích khách quan.
+	o Dữ liệu không thể bị làm sai lệch.
+	o Dễ dàng phân tích và có chiến lược phù hợp.
+	o Việc phân tích thực hiện tự động.
+	o Phân tích có thể được phân loại theo giờ, ngày, tuần, tháng, năm.
+	- Nhược điểm:
+	o Chi phí lắp đặt cao.
+	o Phân tích cảm tính không chính xác 100%.
+	o Phân tích cảm xúc của khách hàng cần sự đồng ý của họ.
+	

@@ -1,0 +1,24 @@
+2. Product Background
+
+	Nắm bắt tâm lý khách hàng(cảm xúc trải nghiệm sản phẩm) và xác định những khu vực khách hàng thường xuyên có thói quen qua lại luôn là vấn đề các nhà cung cấp sản phẩm quan tâm. Họ có thể đưa ra những nhận định, chiến lược sản xuất tốt hơn dựa vào các bản báo cáo trải nghiệm sản phẩm của khách hàng từ các chi nhánh phân phối.
+	
+	Ngày nay có rất nhiều phương pháp để nhà cung cấp sản phẩm có thể có số liệu () như là phân tích bán hàng, khảo sát, dựa vào phản hồi của khách hàng. Nhiều công ty / tổ chức thuê đội ngủ nhân viên để có thể có được số liệu. Họ sử dụng cách tiếp cận truyền thống: theo dõi bằng mắt. Cách tiếp cận truyền thống không hiệu quả do lỗi của con người và chi phí vận hành lớn. Những bất lợi này đặt ra một thách thức đối với các công ty hoặc tổ chức trên.
+	
+3. Existing Systems
+
+	Hầu hết các công ty, tổ chức tại Việt Nam đều lựa chọn giải pháp thủ công để giải quyết vấn thu thập dữ liệu (). Họ thuê một số đội ngũ... đi khảo sát và nhờ khách hàng điền vào các bản thu thập thông tin trong khu vực. Hầu hết các hoạt động này là theo dõi bằng mắt và thủ công. Tất cả các bước của quy trình đều dựa vào khả năng của con người.
+	
+4. Business Opportunity
+
+	Để thay thế hoặc rút ngắn quy trình phát hiện thủ công hiện tại, cần có một hệ thống tự động hóa có thể nâng cao hiệu quả trong việc nắm bắt cảm xúc trải nghiệm sản phẩm trong các khu vực được quy định. Hệ thống này được phát triển phù hợp với điều kiện thực tế và cơ sở hạ tầng tại Việt Nam ngày nay.
+	
+	Với sự phát triển của máy tính, chúng tôi quan tâm đến việc áp dụng các giải pháp AI trong việc phát triển một hệ thống nhằm thỏa mãn các yêu cầu trên. Hệ thống sẽ tự động hóa một số bước thủ công trong toàn bộ quy trình như hệ thống sẽ tự động phát hiện và ghi lại các hành vi của khách hàng. Điều này có thể tiết kiệm thời gian của nhân viên, giảm chi phí của tổ công ty/tổ chức giảm quy trình phụ thuộc vào con người.
+	
+5. Product vision
+
+	CFFE là một hệ thống sử dụng camera IP được lắp đặt tại các khu vực cụ thể của cửa hàng trong hệ thống để đếm người người trong khu vực, và phân tích cảm xúc của khách hàng một cách tự động. Sau đó, hệ thống sẽ lưu trữ lại video đã được phân tích để người dùng có thể kiểm trả lại tính xác thực của dữ liệu. Điều đó sẽ giúp cải thiện ().
+	
+	Hệ thống CFFE giúp giảm đi các bước thủ công của con người, chi phí được giảm xuống, đẩy nhanh quy trình thủ công hiện tại và tăng độ chính xác.
+
+	
+	

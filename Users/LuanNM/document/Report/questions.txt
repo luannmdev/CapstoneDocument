@@ -1,0 +1,10 @@
+hỏi thầy
+	screen flow
+	non screen function
+	cái ERD giống i chang DB
+	d. Communications Interfaces ?
+	c. Performance ?
+
+hỏi thầy 2
+	1.3 Testing Types: test UI ko có trong exel
+	2.3 Test Milestones: dựa vào đâu tính ra 

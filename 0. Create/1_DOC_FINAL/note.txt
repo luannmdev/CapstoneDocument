@@ -1,0 +1,11 @@
+Sửa : 
+
+VI 2.4 
+Setup server environment thêm viền hình
+
+
+
+NOT DONE
+1. ERD chưa merge
+2. đánh số user manual
+3. đánh số table, image use case spec 

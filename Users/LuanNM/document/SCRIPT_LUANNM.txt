@@ -1,0 +1,75 @@
+
+	Trong phần Introduction chúng tôi có 3 phần lần lượt là Hiện trạng, Hệ thống hiện tại, và giải pháp
+<SPACE>
+	Đầu tiên là hiện trạng
+<SPACE>
+
+	Nắm bắt tâm lý khách hàng, cảm xúc trải nghiệm sản phẩm và xác định những khu vực khách hàng thường xuyên có thói quen qua lại, luôn là vấn đề các nhà cung cấp sản phẩm quan tâm. 
+<SPACE>	
+	Họ có thể đưa ra những nhận định, chiến lược sản xuất sản phẩm tốt hơn, dựa vào các bản báo cáo trải nghiệm sản phẩm của khách hàng từ các chi nhánh phân phối.
+	
+	Ngày nay, để có được bản báo cáo về trải nghiệm sản phẩm từ các chi nhánh phân phối, Họ sử dụng cách tiếp cận truyền thống đó là: thuê đội ngũ nhân viên thu thập bằng tay, theo dõi bằng mắt. Cách tiếp cận truyền thống này không hiệu quả do dễ có lỗi của con người, và chi phí vận hành lớn. Những bất lợi này đặt ra một thách thức đối với các công ty hoặc tổ chức trên.
+<SPACE>
+	Trong quá trình tìm hiểu thị trường, chúng tôi nhận thấy
+	các công ty, tổ chức tại Việt Nam hầu hết đều lựa chọn giải pháp thủ công nói trên để giải quyết vấn thu thập dữ liệu. Các hoạt động này là theo dõi bằng mắt và thủ công. Tất cả các bước của quy trình đều dựa vào khả năng của con người.
+<SPACE>
+<SPACE>
+	Với sự phát triển của máy tính, chúng tôi quan tâm đến việc áp dụng các giải pháp AI Để rút ngắn quy trình thủ công hiện tại, qua đó có thể nâng cao hiệu quả trong việc nắm bắt cảm xúc trải nghiệm sản phẩm trong các khu vực được quy định, và đếm số khách hàng qua lại trong cửa hàng. Hệ thống này được phát triển phù hợp với điều kiện thực tế và cơ sở hạ tầng tại Việt Nam ngày nay.
+<SPACE>
+	Từ đó Hệ thống CFFE ra đời, hệ thống này sẽ tự động hóa một số bước thủ công trong toàn bộ quy trình. Điều này có thể tiết kiệm thời gian của nhân viên, giảm chi phí của tổ công ty, tổ chức, giảm quy trình phụ thuộc vào con người.
+<SPACE>	
+	Chi tiết hơn, CFFE là một hệ thống sử dụng những camera IP được lắp đặt tại các khu vực cụ thể trong hệ thống để đếm người trong khu vực, và phân tích cảm xúc của khách hàng một cách tự động. Sau đó, hệ thống sẽ lưu trữ lại video đã được phân tích để người dùng có thể kiểm trả lại tính xác thực của dữ liệu.
+	
+<SPACE>
+	Sau đây tôi xin phép trình bày phần System Design
+<SPACE>
+	Trong hệ thống của chúng tôi, người dùng sẽ lấy video được quay từ các Camera trên ngăn kệ,
+<SPACE>
+	upload lên back-end server 
+<SPACE>
+	thông qua Web App của hệ thống.
+<SPACE>
+	back-end sv sẽ chuyển video qua Detect sv, tại đây hệ thống detect AI sẽ xử lý và trả về kết quả detect lại cho back-end sv.
+<SPACE>
+<SPACE>
+	Kết quả sẽ dc back-end sv đẩy lên stogage
+<SPACE>
+<SPACE>		
+	và lưu trữ thông tin xuống database.
+	Sau KHI back-end sv nhận thông báo thành công,
+<SPACE>		
+	B-E SV thực hiện thông báo cho Web app
+<SPACE>	
+	tại đây người dùng có thể truy cập lên storage để xem kết quả detect.
+<SPACE>
+<SPACE>
+	Đối với mobile app.
+<SPACE>
+	người dùng có thể gửi request xuống back-end sv 
+<SPACE>và truy cập storage tương tự như web app.
+
+
+<SPACE>
+<SPACE>
+Web app chúng tôi sử dụng VieJs
+<SPACE>
+<SPACE>
+Backend server: framework SpringBoot, MyBatis, JWT, Swagger API,
+<SPACE>
+<SPACE>
+Detect SV: OpenCV, tensorflow
+<SPACE>
+<SPACE>
+Database: MySQL
+<SPACE>
+<SPACE>
+Mobile app: Flutter
+<SPACE>
+Trong quá trình xây dựng hệ thống, chúng tôi lưu trữ source code trên github, CICD bằng Jenkins và sử dụng các công nghệ của GG Cloud Platform
+
+<SPACE>
+
+phần 3 DETECTION gồm 2 phần
+	phần 1 là Detect emotion dùng để phục vụ việc nhận diện cảm xúc.
+	phần 2 là Detect hotspot phục vụ cho việc nhận diện điểm nóng trong cửa hàng.
+	sau đây a Hữu sẽ trình bày phần 1 nhận diện cảm xúc.
